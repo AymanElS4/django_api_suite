@@ -9,7 +9,7 @@ from datetime import datetime
 
 class LandingAPI(APIView):
     name = "Landing API"
-    collection_name = "nombre_de_tu_coleccion"  # Cambia esto por el nombre real de la colección en Firebase
+    collection_name = "reservas"  # Cambia esto por el nombre real de la colección en Firebase
 
     # Aquí puedes agregar los métodos get, post, put, delete según sea necesario
     def get(self, request):
